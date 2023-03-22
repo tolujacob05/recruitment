@@ -1,0 +1,378 @@
+nav {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav > .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name > span:nth-of-type(1) {
+    font-size: 22px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    width: 300px;
+    height: 100px;
+    font-weight: bolder;
+}
+
+.name > span:nth-of-type(2) {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    height: 10px;
+}
+
+nav > .pic1 > img {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+main {
+    margin: 50px;
+}
+
+.contact-section {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+/* .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+}
+
+.icons > span {
+    display: grid;
+    gap: 2rem;
+}
+
+.icons > span > i {
+    padding: 10px;
+}
+
+.info > span {
+    display: grid;
+    gap: 2rem;
+} */
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons > span:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+.profile-section {
+    margin-bottom: 5rem;
+}
+
+.profile {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.line {
+    width: 90px;
+    height: 1px;
+    background: black;
+}
+
+.profile > span:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    width: 90px;
+    height: 10px;
+}
+
+.profile > span:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 300;
+    width: 450px;
+    height: 10px;
+    line-height: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.exp-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.experience {
+    width: 500px;
+    height: 350px;
+    background: wheat;
+    /* display: grid; */
+    align-items: center;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 19px 60px wheat;
+}
+
+.web {
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.web-dev {
+    display: grid;
+}
+
+.line2 {
+    width: 140px;
+    height: 2px;
+    background: black;
+}
+
+.date {
+    display: grid;
+}
+
+.line3 {
+    width: 250px;
+    height: 2px;
+    background: black;
+}
+
+.experience > ul {
+    display: grid;
+    gap: 1rem;
+}
+
+.experience > ul > li {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+
+.projects {
+    border: 1px solid wheat;
+    padding: 2rem;
+    background: wheat;
+    border-radius: 15px;
+    display: grid;
+    box-shadow: 0px 19px 60px wheat;
+}
+
+.projects > span {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.line4 {
+    width: 80px;
+    height: 1px;
+    background: black;
+}
+
+.todo > span {
+    line-height: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.todo > a {
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.kanban > span {
+    line-height: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.kanban > a {
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+.shopify > span {
+    line-height: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.shopify > a {
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+.recruitment > span {
+    line-height: 30px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.recruitment > a {
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.skills {
+    border: 1px solid wheat;
+    padding: 2rem;
+    background: wheat;
+    border-radius: 15px;
+    box-shadow: 0px 19px 60px wheat;
+}
+
+.line5 {
+    width: 50px;
+    height: 1px;
+    background: black;
+}
+
+.skills > span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 40px;
+}
+
+.skills > ul {
+    display: grid;
+    gap: 1rem;
+}
+
+.skills > ul > li {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: bold;
+    width: 200px;
+    /* padding: 1rem; */
+}
+
+.tools {
+    border: 1px solid wheat;
+    padding: 2rem;
+    background: wheat;
+    border-radius: 15px;
+    box-shadow: 0px 19px 60px wheat;
+}
+
+.tools > span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 40px;
+}
+
+.line6 {
+    width: 50px;
+    height: 1px;
+    background: black;
+}
+
+.tools > ul {
+    display: grid;
+    gap: 1rem;
+}
+
+.tools > ul > li {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: bold;
+    width: 200px;
+    /* padding: 1rem; */
+}
+
+.education {
+    border: 1px solid wheat;
+    padding: 2rem;
+    background: wheat;
+    border-radius: 15px;
+    box-shadow: 0px 19px 60px wheat;
+}
+
+.education > span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.line7 {
+    width: 110px;
+    height: 1px;
+    background: black;
+}
+
+.school {
+    padding-top: 1rem;
+}
+
+.school > span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 40px;
+}
+
+.school > ul {
+    display: grid;
+    gap: 1rem;
+}
+
+.school > ul > li {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: bold;
+    width: 280px;
+    /* padding: 1rem; */
+}
+
+.pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.picture {
+    position: relative;
+}
+
+.picture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.picture:nth-child(5) {
+    grid-column: span 2;
+}
+
+.picture > span {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    right: 1px;
+    font-family: 'ubuntu', sans-serif;
+    color: goldenrod;
+    padding: 1rem;
+    box-shadow: 0px 19px 60px rgb(138, 92, 7);
+}
